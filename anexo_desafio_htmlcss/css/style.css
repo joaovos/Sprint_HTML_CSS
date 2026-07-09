@@ -1,0 +1,64 @@
+/* CORES: #1b357e
+                #1351d8*/
+@import url("./reset.css");
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-logo-1 {
+    width: 100px
+}
+
+.menu-principal {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.botões-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.botões-menu a {
+    color: #1351d8;
+    text-decoration: none;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1b357e;
+}
+
+.div-rodape {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.titulo-rodape {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.icone-redes-sociais {
+    width: 25px;
+
+    
+}
+
+.img-logo-2 {
+margin-right: 10px;
+}
