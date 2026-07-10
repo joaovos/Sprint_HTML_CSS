@@ -56,9 +56,94 @@
 .icone-redes-sociais {
     width: 25px;
 
-    
+
 }
 
 .img-logo-2 {
-margin-right: 10px;
+    margin-right: 10px;
+}
+
+.img-main-home {
+    width: 70%;
+    transform: translateX(20%);
+}
+
+.div-main-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.div-main-lançamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-img-modelo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: row;
+    gap: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-formulario {
+    font-size: 30px;
+}
+
+.botao-formulario {
+    width: 200px;
+    height: 35px;
+    background-color: #1351d8;
+    color: white;
+    border: none;
+    border-radius: 15px;
+
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.formulario-campos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+}
+
+select,
+input, textarea {
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.2);
+}
+
+
+
+
+
+
+.botao-formulario:hover {
+    background-color: #1b357e;
+    transform: translateY(-2px);
+    transform: scale(1.05);
+}
+
+.botao-formulario:active {
+    background-color: #1b357e;
+    transform: translateY(2px);
+    transform: scale(0.98);
 }

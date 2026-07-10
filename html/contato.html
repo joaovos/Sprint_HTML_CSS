@@ -1,51 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../anexo_desafio_htmlcss/css/style.css">
-    
+
     <title>FORD</title>
 </head>
+
 <body>
-    
-
-<header class="cabeçalho">
-<img class="img-logo-1" src="../anexo_desafio_htmlcss/img/logo-ford-256.png" alt="Logo Ford">
-<nav class="menu-principal">
-    <ul class="botões-menu">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./lançamento.html">Lançamento</a></li>
-        <li><a href="./contato.html">Contato</a></li>
-    </ul>
-</nav>
-</header>
-
-<main></main>
 
 
+    <header class="cabeçalho">
+        <img class="img-logo-1" src="../anexo_desafio_htmlcss/img/logo-ford-256.png" alt="Logo Ford">
+        <nav class="menu-principal">
+            <ul class="botões-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./lançamento.html">Lançamento</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="formulario">
+            <h1 class="h1-formulario" >Sobre Você</h1>
+            <div class="formulario-campos">
+                <input type="text" id="nome" name="nome" placeholder="Nome*" required>
+            </div>
+            <div class="formulario-campos">
+                <input type="email" id="email" name="email" placeholder="E-mail*" required>
+            </div>
+            <div class="formulario-campos">
+                <input type="text" id="cpf" name="cpf" placeholder="CPF*" required>
+            </div>
+            <div class="formulario-campos">
+                
+                <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome*" required>
+            </div>
+            <div class="formulario-campos">
+                
+                <input type="number" min="0" max="9" step="1" id="telefone" name="telefone" placeholder="Telefone*" required>
+            </div>
+            <div class="formulario-campos">
+                
+                <select id="tipo-de-contato" name="tipo-de-contato" required>
+                    <option value="">Selecione o tipo de contato</option>
+                    <option value="Elogio">Elogio</option>
+                    <option value="Reclamação">Reclamação</option>
+                    <option value="Solicitação">Solicitação</option>
+                </select>
+            </div>
+            <div class="formulario-campos">
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+            <button class="botao-formulario" type="submit">Enviar</button>
+        </div>
+        <br>
+
+
+
+    </main>
 
 
 
 
-<footer class="rodape">
-    <div class="div-rodape">
-        <p class="titulo-rodape">Redes Sociais:</p>
-        <a href="https://www.facebook.com/FordBrasil/">
-            <img class="icone-redes-sociais" src="../anexo_desafio_htmlcss/img/facebook-50.png" alt="Logo facebook">
-        </a>
-        <a href="https://www.youtube.com/fordbrasil">
-            <img class="icone-redes-sociais" src="../anexo_desafio_htmlcss/img/youtube-squared-50.png" alt="Logo youtube">
-        </a>
-        <a href="https://www.instagram.com/fordbrasil/">
-            <img class="icone-redes-sociais" src="../anexo_desafio_htmlcss/img/instagram-logo-50.png" alt="Logo instagram">
-        </a>
-    </div>
 
-    <img class="img-logo-2" src="../anexo_desafio_htmlcss/img/ford-96.png" alt="Logo Ford 2">
+    </main>
 
-</footer>
+
+
+
+
+
+    <footer class="rodape">
+        <div class="div-rodape">
+            <p class="titulo-rodape">Redes Sociais:</p>
+            <a href="https://www.facebook.com/FordBrasil/">
+                <img class="icone-redes-sociais" src="../anexo_desafio_htmlcss/img/facebook-50.png" alt="Logo facebook">
+            </a>
+            <a href="https://www.youtube.com/fordbrasil">
+                <img class="icone-redes-sociais" src="../anexo_desafio_htmlcss/img/youtube-squared-50.png"
+                    alt="Logo youtube">
+            </a>
+            <a href="https://www.instagram.com/fordbrasil/">
+                <img class="icone-redes-sociais" src="../anexo_desafio_htmlcss/img/instagram-logo-50.png"
+                    alt="Logo instagram">
+            </a>
+        </div>
+
+        <img class="img-logo-2" src="../anexo_desafio_htmlcss/img/ford-96.png" alt="Logo Ford 2">
+
+    </footer>
 
 
 </body>
+
 </html>
