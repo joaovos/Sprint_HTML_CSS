@@ -55,8 +55,6 @@
 
 .icone-redes-sociais {
     width: 25px;
-
-
 }
 
 .img-logo-2 {
@@ -131,11 +129,6 @@ input, textarea {
     box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.2);
 }
 
-
-
-
-
-
 .botao-formulario:hover {
     background-color: #1b357e;
     transform: translateY(-2px);
@@ -146,4 +139,97 @@ input, textarea {
     background-color: #1b357e;
     transform: translateY(2px);
     transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cabeçalho {
+        flex-direction: column;    
+        align-items: center;
+        gap: 15px;
+        padding: 15px 0;
+    }
+
+    .menu-principal {
+        justify-content: center; 
+    }
+
+
+
+.div-main-home p {
+    padding: 15px;
+    text-align: center;           
+}
+
+
+.div-main-lançamento {
+    position: relative;
+    padding-bottom: 56.25%;      
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.div-main-lançamento iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.div-img-modelo {
+    display: flex;
+    flex-wrap: wrap;             
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.img-modelo {
+    width: 100%;
+    max-width: 320px;    
+    height: auto;
+    
+}
+
+
+.formulario {
+    width: 90%;                  
+    max-width: 500px;          
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+.formulario-campos input, 
+.formulario-campos select, 
+.formulario-campos textarea {
+    width: 100%;                 
+    box-sizing: border-box;      
+
+}
+
+.rodape {
+        flex-direction: column;    
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .div-rodape {
+        flex-direction: column; 
+        gap: 15px;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    
 }
